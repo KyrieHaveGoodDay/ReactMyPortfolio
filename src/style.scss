@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Noto+Serif+TC:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&family=Noto+Serif+TC:wght@600&display=swap");
 
 // 主色系
 // RGB 165,65,37 =##A84125
@@ -7,7 +7,7 @@ $main_color: rgb(165, 65, 37);
 //標題用字體
 $main_title: "Noto Sans TC", sans-serif;
 //文章用字體
-$main_content: 'Noto Serif TC', serif;
+$main_content: "Noto Serif TC", serif;
 
 // RWD
 $desktop: 1025px;
@@ -53,9 +53,8 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #BBDED6;
+    background: #bbded6;
     z-index: 9999;
-    
 }
 .loading {
     position: absolute;
@@ -64,15 +63,14 @@ body {
     height: 80px;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
-   
+    transform: translate(-50%, -50%);
 }
 
 // 導覽頁
 #card {
     width: 100%;
     height: 100vh;
-    background-image: url('https://kyriehavegoodday.github.io/myindexImg/img/kyrie1.PNG');
+    background-image: url("https://kyriehavegoodday.github.io/myindexImg/img/kyrie1.PNG");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -91,8 +89,6 @@ body {
         height: 200px;
         background-position: 0 0;
     }
-
-   
 
     #content {
         position: relative;
@@ -205,7 +201,7 @@ body {
         #life-img {
             width: 500px;
             height: 500px;
-            background-image: url('https://kyriehavegoodday.github.io/myindexImg/img/life.jpg');
+            background-image: url("https://kyriehavegoodday.github.io/myindexImg/img/life.jpg");
             background-size: cover;
             background-position: -90px 0;
             box-shadow: 2px 8px 3px rgba(0, 0, 0, 0.3);
@@ -298,10 +294,10 @@ body {
         #life-img {
             width: 500px;
             height: 500px;
-            background-image: url('https://kyriehavegoodday.github.io/myindexImg/img/focus.jpg');
+            background-image: url("https://kyriehavegoodday.github.io/myindexImg/img/focus.jpg");
             background-size: cover;
             box-shadow: 2px 8px 3px rgba(0, 0, 0, 0.3);
-            
+
             //平板
             @media screen and (max-width: $ipad) {
                 margin: 0 auto;
@@ -390,20 +386,20 @@ body {
             }
         }
         #img-work {
-            background-image: url('https://kyriehavegoodday.github.io/myindexImg/img/works.jpg');
+            background-image: url("https://kyriehavegoodday.github.io/myindexImg/img/works.jpg");
             background-size: cover;
         }
         #img-about {
-            background-image: url('https://kyriehavegoodday.github.io/myindexImg/img/about.jpg');
+            background-image: url("https://kyriehavegoodday.github.io/myindexImg/img/about.jpg");
             background-size: cover;
         }
     }
 }
 
 //作品集頁面
-.webTitle{    
+.webTitle {
     display: block !important;
-    h1{
+    h1 {
         @include title;
     }
 }
@@ -441,7 +437,7 @@ body {
         #introduction-img {
             width: 150px;
             height: 150px;
-            background-image: url('https://kyriehavegoodday.github.io/myindexImg/img/me-1.PNG');
+            background-image: url("https://kyriehavegoodday.github.io/myindexImg/img/me-1.PNG");
             background-repeat: no-repeat;
             background-size: cover;
             border-radius: 50%;
@@ -586,7 +582,7 @@ body {
         word-spacing: 10px;
         text-align: center;
     }
-    span{
+    span {
         margin: 0 10px;
     }
     a {
@@ -611,7 +607,7 @@ body {
         }
     }
 }
-.titleActive{
+.titleActive {
     color: $main_color !important;
     border-bottom: 5px solid $main_color !important;
 }
@@ -843,6 +839,7 @@ body {
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
     margin: 20px auto;
 
     //平板
@@ -860,9 +857,13 @@ body {
     .web-img {
         overflow: hidden;
         img {
-            width: 300px;
-            height: 150px;
+            width: 100%;
+            height: 200px;
             object-fit: cover;
+            //手機
+            @media screen and (max-width: $phone) {
+                width: 90%;
+            }
         }
     }
     .web-h3 {
@@ -1104,8 +1105,8 @@ body {
                 }
                 ol {
                     display: grid;
-                    grid-template-columns:repeat(1,1fr );
-                    
+                    grid-template-columns: repeat(1, 1fr);
+
                     li {
                         display: inline-block;
                         // list-style: square;
@@ -1151,7 +1152,7 @@ body {
     cursor: pointer;
     background: #fff;
     border-radius: 50%;
-    box-shadow: 0 0 5px rgba(#ccc,0.7);
+    box-shadow: 0 0 5px rgba(#ccc, 0.7);
     padding: 5px;
 }
 
@@ -1169,134 +1170,134 @@ body {
  * Copyright 2015 Daniel Cardoso <@DanielCardoso>
  * Licensed under MIT
  */
- .la-ball-scale-ripple,
- .la-ball-scale-ripple > div {
-     position: relative;
-     -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-             box-sizing: border-box;
- }
- .la-ball-scale-ripple {
-     display: block;
-     font-size: 0;
-     color: #fff;
- }
- .la-ball-scale-ripple.la-dark {
-     color: #333;
- }
- .la-ball-scale-ripple > div {
-     display: inline-block;
-     float: none;
-     background-color: currentColor;
-     border: 0 solid currentColor;
- }
- .la-ball-scale-ripple {
-     width: 32px;
-     height: 32px;
- }
- .la-ball-scale-ripple > div {
-     width: 32px;
-     height: 32px;
-     background: transparent;
-     border-width: 2px;
-     border-radius: 100%;
-     opacity: 0;
-     -webkit-animation: ball-scale-ripple 1s 0s infinite cubic-bezier(.21, .53, .56, .8);
-        -moz-animation: ball-scale-ripple 1s 0s infinite cubic-bezier(.21, .53, .56, .8);
-          -o-animation: ball-scale-ripple 1s 0s infinite cubic-bezier(.21, .53, .56, .8);
-             animation: ball-scale-ripple 1s 0s infinite cubic-bezier(.21, .53, .56, .8);
- }
- .la-ball-scale-ripple.la-sm {
-     width: 16px;
-     height: 16px;
- }
- .la-ball-scale-ripple.la-sm > div {
-     width: 16px;
-     height: 16px;
-     border-width: 1px;
- }
- .la-ball-scale-ripple.la-2x {
-     width: 64px;
-     height: 64px;
- }
- .la-ball-scale-ripple.la-2x > div {
-     width: 64px;
-     height: 64px;
-     border-width: 4px;
- }
- .la-ball-scale-ripple.la-3x {
-     width: 96px;
-     height: 96px;
- }
- .la-ball-scale-ripple.la-3x > div {
-     width: 96px;
-     height: 96px;
-     border-width: 6px;
- }
- /*
+.la-ball-scale-ripple,
+.la-ball-scale-ripple > div {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.la-ball-scale-ripple {
+    display: block;
+    font-size: 0;
+    color: #fff;
+}
+.la-ball-scale-ripple.la-dark {
+    color: #333;
+}
+.la-ball-scale-ripple > div {
+    display: inline-block;
+    float: none;
+    background-color: currentColor;
+    border: 0 solid currentColor;
+}
+.la-ball-scale-ripple {
+    width: 32px;
+    height: 32px;
+}
+.la-ball-scale-ripple > div {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border-width: 2px;
+    border-radius: 100%;
+    opacity: 0;
+    -webkit-animation: ball-scale-ripple 1s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8);
+    -moz-animation: ball-scale-ripple 1s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8);
+    -o-animation: ball-scale-ripple 1s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8);
+    animation: ball-scale-ripple 1s 0s infinite cubic-bezier(0.21, 0.53, 0.56, 0.8);
+}
+.la-ball-scale-ripple.la-sm {
+    width: 16px;
+    height: 16px;
+}
+.la-ball-scale-ripple.la-sm > div {
+    width: 16px;
+    height: 16px;
+    border-width: 1px;
+}
+.la-ball-scale-ripple.la-2x {
+    width: 64px;
+    height: 64px;
+}
+.la-ball-scale-ripple.la-2x > div {
+    width: 64px;
+    height: 64px;
+    border-width: 4px;
+}
+.la-ball-scale-ripple.la-3x {
+    width: 96px;
+    height: 96px;
+}
+.la-ball-scale-ripple.la-3x > div {
+    width: 96px;
+    height: 96px;
+    border-width: 6px;
+}
+/*
   * Animation
   */
- @-webkit-keyframes ball-scale-ripple {
-     0% {
-         opacity: 1;
-         -webkit-transform: scale(.1);
-                 transform: scale(.1);
-     }
-     70% {
-         opacity: .65;
-         -webkit-transform: scale(1);
-                 transform: scale(1);
-     }
-     100% {
-         opacity: 0;
-     }
- }
- @-moz-keyframes ball-scale-ripple {
-     0% {
-         opacity: 1;
-         -moz-transform: scale(.1);
-              transform: scale(.1);
-     }
-     70% {
-         opacity: .65;
-         -moz-transform: scale(1);
-              transform: scale(1);
-     }
-     100% {
-         opacity: 0;
-     }
- }
- @-o-keyframes ball-scale-ripple {
-     0% {
-         opacity: 1;
-         -o-transform: scale(.1);
-            transform: scale(.1);
-     }
-     70% {
-         opacity: .65;
-         -o-transform: scale(1);
-            transform: scale(1);
-     }
-     100% {
-         opacity: 0;
-     }
- }
- @keyframes ball-scale-ripple {
-     0% {
-         opacity: 1;
-         -webkit-transform: scale(.1);
-            -moz-transform: scale(.1);
-              -o-transform: scale(.1);
-                 transform: scale(.1);
-     }
-     70% {
-         opacity: .65;
-         -webkit-transform: scale(1);
-            -moz-transform: scale(1);
-              -o-transform: scale(1);
-                 transform: scale(1);
-     }
-     100% {
-         opacity: 0;
-     }
- }
+@-webkit-keyframes ball-scale-ripple {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+    }
+    70% {
+        opacity: 0.65;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-moz-keyframes ball-scale-ripple {
+    0% {
+        opacity: 1;
+        -moz-transform: scale(0.1);
+        transform: scale(0.1);
+    }
+    70% {
+        opacity: 0.65;
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@-o-keyframes ball-scale-ripple {
+    0% {
+        opacity: 1;
+        -o-transform: scale(0.1);
+        transform: scale(0.1);
+    }
+    70% {
+        opacity: 0.65;
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+@keyframes ball-scale-ripple {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(0.1);
+        -moz-transform: scale(0.1);
+        -o-transform: scale(0.1);
+        transform: scale(0.1);
+    }
+    70% {
+        opacity: 0.65;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+    }
+}

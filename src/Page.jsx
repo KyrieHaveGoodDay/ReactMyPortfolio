@@ -9,11 +9,11 @@ function Page() {
     // titleActive
     const style = ({ isActive }) => {
         return {
-          color: isActive ? 'rgb(165, 65, 37)' : null,
-          borderBottom: isActive ? '5px solid rgb(165, 65, 37)' : null
+            color: isActive ? 'rgb(165, 65, 37)' : null,
+            borderBottom: isActive ? '5px solid rgb(165, 65, 37)' : null
         }
-      }
-    
+    }
+
     return <>
         <Loading />
         <div id="introduction">
@@ -57,10 +57,7 @@ function Page() {
         </div>
         <hr />
         <Outlet />
-        {/* <Routes>
-            <Route path='/' element={<Portfolio/>}/>
-            <Route path='/web' element={<Web/>}/>
-        </Routes> */}
+
         <Footer />
         <GoTop />
 
