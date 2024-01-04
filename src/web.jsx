@@ -117,6 +117,13 @@ function Web() {
     // other 其他畫面資料
     let other = [
         {
+            link: 'https://kyriehavegoodday.github.io/EntertainmentCity/',
+            img: 'https://kyriehavegoodday.github.io/myindexImg/img/bigPic.jpg',
+            alt: '電競娛樂城',
+            title: '電競娛樂城',
+            githubLink: '',
+        },
+        {
             link: 'https://kyriehavegoodday.github.io/SuperSaving/',
             img: 'https://kyriehavegoodday.github.io/SuperSaving/img/layout0525/block_coupon03_02.png',
             alt: '超省節',
