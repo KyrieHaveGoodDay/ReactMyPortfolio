@@ -22,7 +22,7 @@ function About(){
                 </div>
                 <div className="about-date">
                     <h2>Contact</h2>
-                    <p>iPhone:0985734993</p>
+                    <p>iPhone : 0985-734-993</p>
                 </div>
             </div>
             <div id="about-right">
@@ -33,7 +33,7 @@ function About(){
 
                 <div id="contact-me">
                     <div className="box1">
-                        <img src="https://kyriehavegoodday.github.io/myindexImg/img//icon-phone.png" alt="聯絡我"/><br/><span>886-985734993</span>
+                        <img src="https://kyriehavegoodday.github.io/myindexImg/img//icon-phone.png" alt="聯絡我"/><br/><span>0985-734-993</span>
                     </div>
                     <div className="box1">
                         <img src="https://kyriehavegoodday.github.io/myindexImg/img//icon-email.png" alt="聯絡我"/><br/><span>healthymbear@gmail.com</span>
@@ -54,7 +54,7 @@ function About(){
                     <h2 className="about-title">Experince</h2>
                     <hr className="about-hr"/>
                     <div className="about-content">
-                        <h2>2023 - Now</h2>
+                        <h2>2023 - 2024</h2>
                         <div className="about-box">
                             <h3>奇韋資訊股份有限公司</h3>
                             <h4>前端設計師</h4>
@@ -147,16 +147,17 @@ function About(){
                             <h2>前端技能</h2>
                             <hr/>
                             <ol>
-                                <li>1.Sass建立及整合css資源</li>
-                                <li>2.RWD全尺寸設計</li>
-                                <li>3.善用jQuery套用第三方動畫效果</li>
-                                <li>4.React/Ajax/RestfulAPI資料串接/JSON/vite</li>
-                                <li>5.Bootstrap5快速開發</li>
-                                <li>6.AOS、GSAP第三方套件動畫應用</li>
-                                <li>7.Node.js套件整合前端開發</li>
-                                <li>8.JS GUI應用</li>
-                                <li>9.Firebase資料庫</li>
-                                <li>10.SEO</li>
+                                <li>1. SCSS : 建立及整合css資源</li>
+                                <li>2. RWD : 全尺寸設計</li>
+                                <li>3. jQuery : 使用提供的API做相關的操作(動畫、AJAX)</li>
+                                <li>4. React : Hook / SPA / NextJS / function Component / Router / JSX / Babel</li>
+                                <li>5. BootStrap : v4/v5 快速開發</li>
+                                <li>6. AOS、GSAP : 第三方套件動畫應用</li>
+                                <li>7. 建構工具 : NodeJS/NPM/Vite</li>
+                                <li>8. JavaScript : es5 、 es6 / component / 解構 / 串接API、Promise、async 、 await / ESmodule /cookie</li>
+                                <li>9. 版本控制 : git / GitHub / Sourcetree</li>
+                                <li>10. 其他 : Firebase資料庫 / Gulp / 瀏覽器相容性 / MVC / SEO / AI、PS、XD、Figma</li>
+                                
 
                             </ol>
                         </div>

@@ -10,63 +10,65 @@ function Web() {
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/coffee.jpg',
             alt: '咖啡',
             title: '咖啡',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/ReactCoffee2023',
+            skill:['HTML','CSS','RWD','React']
         },
         {
             link: 'https://kyriehavegoodday.github.io/Web_SASS_SCSS/',
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/kyrie.jpg',
             alt: 'kyrie',
             title: 'kyrie',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/Web_SASS_SCSS',
+            skill:['HTML','SCSS','RWD']
         },
         {
             link: 'https://kyriehavegoodday.github.io/Chocolate/',
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/chocolate.jpg',
             alt: '巧克力',
-            title: '巧克力(Bootstrap)',
-            githubLink: '',
+            title: '巧克力',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/Chocolate',
+            skill:['HTML','Bootstrap4','RWD']
         },
         {
             link: 'https://kyriehavegoodday.github.io/HC_banner/',
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/Iphone12.jpg',
             alt: 'Iphone12',
             title: 'Iphone12(套件)',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/HC_banner',
+            skill:['HTML','CSS','JavaScript']
         },
         {
             link: 'https://kyriehavegoodday.github.io/Web_Vue/',
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/vue.jpg',
             alt: 'Vue',
             title: 'Vue出桃園美食',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/Web_Vue',
+            skill:['Vue2']
         },
         {
             link: 'https://kyriehavegoodday.github.io/-Web_Redesign/',
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/starbucks.jpg',
             alt: '星巴克',
             title: '星巴克重製',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/-Web_Redesign',
+            skill:['HTML','SCSS','RWD']
         },
-        {
-            link: 'https://kyriehavegoodday.github.io/Branch8/',
-            img: 'https://kyriehavegoodday.github.io/myindexImg/img/city.jpg',
-            alt: '城市旅行',
-            title: '城市旅行',
-            githubLink: '',
-        },
+        
         {
             link: 'https://kyriehavegoodday.github.io/Furniture/',
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/Furniture.jpg',
             alt: '家具網站',
             title: '家具網站(ps切圖)',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/Furniture',
+            skill:['Photoshop to HTML']
         },
         {
             link: 'https://kyriehavegoodday.github.io/travel/',
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/taipei.jpg',
             alt: '台灣旅遊景點導覽',
             title: '台灣旅遊景點導覽',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/travel',
+            skill:['HTML','SCSS','Get API','RWD']
         },
     ]
     // game
@@ -76,42 +78,48 @@ function Web() {
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/dragonegg.png',
             alt: '恐龍',
             title: '龍蛋守護者',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/dragonegg',
+            skill:['SCSS','RWD','GSAP','jQuery']
         },
         {
             link: 'https://kyriehavegoodday.github.io/animal/',
             img: 'https://kyriehavegoodday.github.io/animal/img/title.png',
             alt: '動物大集合',
             title: '動物大集合',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/animal',
+            skill:['SCSS','RWD','GSAP','jQuery']
         },
         {
             link: 'https://kyriehavegoodday.github.io/envelope/',
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/main_bg.png',
             alt: '接紅包',
             title: '接紅包',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/envelope',
+            skill:['SCSS','RWD','GSAP','jQuery']
         },
         {
             link: 'https://kyriehavegoodday.github.io/turntable/',
             img: 'https://kyriehavegoodday.github.io/turntable/img/h1.png',
             alt: '轉盤',
             title: '轉盤',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/turntable',
+            skill:['SCSS','RWD','GSAP','jQuery']
         },
         {
             link: 'https://kyriehavegoodday.github.io/egg/',
             img: 'https://kyriehavegoodday.github.io/egg/img/game_title.png',
             alt: '敲蛋遊戲',
             title: '敲蛋(手機限定)',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/egg',
+            skill:['SCSS','RWD','GSAP','jQuery']
         },
         {
             link: 'https://kyriehavegoodday.github.io/rabbit/',
             img: 'https://kyriehavegoodday.github.io/rabbit/img/20210901/title.png',
             alt: '玉兔搗麻糬',
             title: '玉兔搗麻糬',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/rabbit',
+            skill:['SCSS','RWD','GSAP','jQuery']
         },
     ]
     // other 其他畫面資料
@@ -121,23 +129,30 @@ function Web() {
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/bigPic.jpg',
             alt: '電競娛樂城',
             title: '電競娛樂城',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/EntertainmentCity',
+            skill:['HTML','SCSS','RWD','GSAP','Swiper']
+
         },
         {
             link: 'https://kyriehavegoodday.github.io/SuperSaving/',
             img: 'https://kyriehavegoodday.github.io/SuperSaving/img/layout0525/block_coupon03_02.png',
             alt: '超省節',
             title: '超省節',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/SuperSaving',
+            skill:['HTML','SCSS','RWD','GSAP','Swiper']
+
         },
         {
             link: 'https://kyriehavegoodday.github.io/fresh/',
             img: 'https://kyriehavegoodday.github.io/fresh/img/banner/slider-1.png',
             alt: '生鮮食品',
             title: '生鮮食品',
-            githubLink: '',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/fresh',
+            skill:['HTML','SCSS','RWD','Swiper']
+
         },
     ]
+    
     return <>
 
 
@@ -150,8 +165,17 @@ function Web() {
                 webWork.map((item, i) => {
                     return <div className="web-title" key={i}>
                         <div className="web-img">
-                            <a href={item.link} target="_blank"><img
-                                src={item.img} alt={item.alt} /></a>
+                            <a href={item.link} target="_blank">
+                                <a href={item.githubLink} target="_blank">
+                                    <img src="https://kyriehavegoodday.github.io/myindexImg/img/icon-github.png" className='github' alt="" />
+                                </a>
+                                <img src={item.img} alt={item.alt} />
+                                <div className='skill'>
+                                    {item.skill.map((skill, j) => {
+                                       return <span key={j}>{skill}</span>;
+                                    })}
+                                </div>
+                            </a>
                         </div>
                         <h3 className="web-h3">{item.title}</h3>
                     </div>
@@ -167,8 +191,17 @@ function Web() {
                 game.map((item, i) => {
                     return <div className="web-title">
                         <div className="web-img">
-                            <a href={item.link} target="_blank"><img
-                                src={item.img} alt={item.alt} /></a>
+                            <a href={item.link} target="_blank">
+                                <a href={item.githubLink} target="_blank">
+                                    <img src="https://kyriehavegoodday.github.io/myindexImg/img/icon-github.png" className='github' alt="" />
+                                </a>
+                                <img src={item.img} alt={item.alt} />
+                                <div className='skill'>
+                                    {item.skill.map((skill, j) => {
+                                       return <span key={j}>{skill}</span>;
+                                    })}
+                                </div>
+                            </a>
                         </div>
                         <h3 className="web-h3">{item.title}</h3>
                     </div>
@@ -186,8 +219,17 @@ function Web() {
                 other.map((item, i) => {
                     return <div className="web-title">
                         <div className="web-img">
-                            <a href={item.link} target="_blank"><img
-                                src={item.img} alt={item.alt} /></a>
+                            <a href={item.link} target="_blank">
+                                <a href={item.githubLink} target="_blank">
+                                    <img src="https://kyriehavegoodday.github.io/myindexImg/img/icon-github.png" className='github' alt="" />
+                                </a>
+                                <img src={item.img} alt={item.alt} />
+                                <div className='skill'>
+                                    {item.skill.map((skill, j) => {
+                                       return <span key={j}>{skill}</span>;
+                                    })}
+                                </div>
+                            </a>
                         </div>
                         <h3 className="web-h3">{item.title}</h3>
                     </div>
