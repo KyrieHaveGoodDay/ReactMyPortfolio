@@ -63,12 +63,20 @@ function Web() {
             skill:['Photoshop to HTML']
         },
         {
-            link: 'https://kyriehavegoodday.github.io/travel/',
-            img: 'https://kyriehavegoodday.github.io/myindexImg/img/taipei.jpg',
-            alt: '台灣旅遊景點導覽',
-            title: '台灣旅遊景點導覽',
-            githubLink: 'https://github.com/KyrieHaveGoodDay/travel',
-            skill:['HTML','SCSS','Get API','RWD']
+            link: 'https://kyriehavegoodday.github.io/tourism/',
+            img: 'https://kyriehavegoodday.github.io/myindexImg/img/norway.jpg',
+            alt: 'Norway',
+            title: 'Norway',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/tourism',
+            skill:['HTML','SCSS','RWD','AOS','Video']
+        },
+        {
+            link: 'https://kyrie-todo-list-ble7-pyogbxial-kyries-projects-0bc0bf3e.vercel.app/',
+            img: 'https://kyriehavegoodday.github.io/myindexImg/img/todolist.jpg',
+            alt: 'TodoList',
+            title: 'TodoList',
+            githubLink: 'https://github.com/KyrieHaveGoodDay/KyrieTodoList',
+            skill:['NextJs','AJAX','RESTfulAPI','Tailwindcss']
         },
     ]
     // game
