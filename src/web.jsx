@@ -71,7 +71,7 @@ function Web() {
             skill:['HTML','SCSS','RWD','AOS','Video']
         },
         {
-            link: 'https://kyrie-todo-list-ble7-pyogbxial-kyries-projects-0bc0bf3e.vercel.app/',
+            link: 'https://kyrie-todo-list-ble7-git-master-kyries-projects-0bc0bf3e.vercel.app/',
             img: 'https://kyriehavegoodday.github.io/myindexImg/img/todolist.jpg',
             alt: 'TodoList',
             title: 'TodoList',
